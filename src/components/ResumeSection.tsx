@@ -2,6 +2,8 @@ import { motion } from 'framer-motion'
 import { Eye, Download } from 'lucide-react'
 
 export default function ResumeSection() {
+  const baseUrl = import.meta.env.BASE_URL ?? '/'
+
   return (
     <section id="resume" className="px-6 py-24 scroll-mt-20">
       <div className="max-w-6xl mx-auto">
@@ -37,7 +39,7 @@ export default function ResumeSection() {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="resume/Anurag-Mahajan-Resume.pdf"
+                href={`${baseUrl}resume/Anurag-Mahajan-Resume.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-black rounded-xl font-medium hover:opacity-90 transition"
@@ -47,7 +49,7 @@ export default function ResumeSection() {
               </a>
 
               <a
-                href="resume/Anurag-Mahajan-Resume.pdf"
+                href={`${baseUrl}resume/Anurag-Mahajan-Resume.pdf`}
                 download
                 className="inline-flex items-center gap-2 px-6 py-3 border border-gray-700 rounded-xl text-white hover:border-gray-500 transition"
               >

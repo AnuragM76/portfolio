@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { ExternalLink, Award } from 'lucide-react'
 
 export default function CertificationsSection() {
+  const baseUrl = import.meta.env.BASE_URL ?? '/'
   const certifications = [
     {
       title: 'Human Resource Management System Using AI & ML',
@@ -9,7 +10,7 @@ export default function CertificationsSection() {
       issuer: 'IJIRCCE • March 2024',
       description:
         'Published research paper focused on AI and Machine Learning applications in Human Resource Management systems.',
-      link: 'certificates/publication-certificate.pdf',
+      link: `${baseUrl}certificates/publication-certificate.pdf`,
       accent: 'text-purple-400',
     },
     {
@@ -18,7 +19,7 @@ export default function CertificationsSection() {
       issuer: 'Hackveda Solutions Pvt. Ltd.',
       description:
         'Worked on ETL pipelines, Apache Spark, AWS, Azure and cloud-native data engineering workflows.',
-      link: 'certificates/hackveda-certificate.pdf',
+      link: `${baseUrl}certificates/hackveda-certificate.pdf`,
       accent: 'text-green-400',
     },
   ]
