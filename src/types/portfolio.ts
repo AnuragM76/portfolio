@@ -12,6 +12,10 @@ export interface SkillCategory {
   items: string[]
 }
 
+export interface Skills {
+  categories: SkillCategory[]
+}
+
 export interface Experience {
   company: string
   role: string
@@ -63,11 +67,32 @@ export interface Profile {
 
 export interface PortfolioData {
   profile: Profile
-  skills: {
-    categories: SkillCategory[]
-  }
+  skills: Skills
   experience: Experience[]
   projects: Project[]
   education: Education[]
+  resume: Resume
+  certifications: Certification[]
   testimonials: Testimonial[]
 }
+
+export type Portfolio = PortfolioData
+
+export interface Resume {
+  title: string
+  description: string
+  viewLink: string
+  downloadLink: string
+}
+
+export interface Certification {
+  id: number
+  title: string
+  type: string
+  issuer: string
+  date: string
+  description: string
+  certificateLink: string
+  featured: boolean
+}
+

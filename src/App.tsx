@@ -7,6 +7,8 @@ import ServicesSection from '@/components/ServicesSection'
 import ProjectsSection from '@/components/ProjectsSection'
 import TestimonialsSection from '@/components/TestimonialsSection'
 import Footer from '@/components/Footer'
+import ResumeSection from '@/components/ResumeSection'
+import CertificationsSection from '@/components/CertificationsSection'
 
 export default function App() {
   const { profile, experience, projects, testimonials } = usePortfolio()
@@ -17,6 +19,8 @@ export default function App() {
       <HeroSection profile={profile} social={profile.social} />
       <AboutSection profile={profile} />
       <ExperienceSection experience={experience} />
+      <ResumeSection />
+      <CertificationsSection />
       <ServicesSection />
       <ProjectsSection projects={projects} />
       <TestimonialsSection testimonials={testimonials} />

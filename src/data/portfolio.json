@@ -99,7 +99,8 @@
         "Improved throughput by 40% and reduced processing time by 35%",
         "Built real-time data processing systems using Apache Spark",
         "Worked with AWS, Azure, Docker, Python and SQL"
-      ]
+      ],
+      "certificateLink": "/certificates/hackveda-certificate.pdf"
     },
     {
       "company": "Infeanet Digital Solution & Web Media",
@@ -178,6 +179,35 @@
       "institution": "AISSMS Polytechnic, Pune",
       "degree": "Diploma in Computer Engineering",
       "period": "2021 \u2013 2024"
+    }
+  ],
+  "resume": {
+    "title": "Professional Resume",
+    "description": "Explore my experience in Software Engineering, Data Engineering, AI/ML Research, Cloud Platforms and Full Stack Development.",
+    "viewLink": "/resume/Anurag-Mahajan-Resume.pdf",
+    "downloadLink": "/resume/Anurag-Mahajan-Resume.pdf"
+  },
+
+  "certifications": [
+    {
+      "id": 1,
+      "title": "Human Resource Management System Using Artificial Intelligence and Machine Learning",
+      "type": "Research Publication",
+      "issuer": "IJIRCCE",
+      "date": "March 2024",
+      "description": "Published research paper in the International Journal of Innovative Research in Computer and Communication Engineering.",
+      "certificateLink": "/certificates/publication-certificate.pdf",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Research Paper Presentation - RACE 2024",
+      "type": "National Conference Presentation",
+      "issuer": "M.E.S. Wadia College of Engineering, Pune",
+      "date": "April 2024",
+      "description": "Presented the research paper 'Human Resource Management System' at the 11th National Conference on Recent Advances in Computer Engineering (RACE 2024), organized in association with CSI Pune Chapter and ICTACT Journal.",
+      "certificateLink": "/certificates/race-2024-certificate.pdf",
+      "featured": true
     }
   ],
   "testimonials": []
