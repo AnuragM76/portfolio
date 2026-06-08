@@ -23,6 +23,7 @@ export interface Experience {
   location: string
   summary: string
   highlights: string[]
+  certificateLink?: string
 }
 
 export interface Project {
@@ -95,4 +96,3 @@ export interface Certification {
   certificateLink: string
   featured: boolean
 }
-

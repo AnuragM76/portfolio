@@ -8,7 +8,7 @@
     "location": "Pune, Maharashtra, India",
     "yearsOfExperience": 1,
     "bio": "Computer Engineering student at Vishwakarma University with hands-on experience in Data Engineering, AI/ML, and Full-Stack Development. Published researcher in Artificial Intelligence and Machine Learning, with internship experience building large-scale ETL pipelines, cloud-native data solutions, and AI-powered applications. Passionate about solving real-world problems using modern software engineering practices and emerging technologies.",
-    "avatar": "/anurag-avatar.png",
+    "avatar": "/Profile Picture.png",
     "social": {
       "github": "https://github.com/AnuragM76",
       "instagram": "",
@@ -113,7 +113,8 @@
         "Performed correlation analysis and feature transformation",
         "Improved model performance by 25%",
         "Worked with Python, Pandas, NumPy and Scikit-learn"
-      ]
+      ],
+      "certificateLink": "/certificates/infeanet-certificate.pdf"
     }
   ],
   "projects": [
@@ -133,23 +134,6 @@
       "year": "2026",
       "link": "",
       "image": "/DashBoard.png",
-      "highlight": true
-    },
-    {
-      "id": 2,
-      "title": "Travel Advisor Platform",
-      "subtitle": "AI-powered Travel Planning System",
-      "description": "A travel recommendation platform integrating transportation, stays, route optimization and cost estimation.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "MongoDB",
-        "Google Maps API"
-      ],
-      "role": "Backend Developer",
-      "year": "2026",
-      "link": "",
-      "image": "",
       "highlight": true
     }
   ],

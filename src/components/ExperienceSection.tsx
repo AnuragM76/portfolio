@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { ExternalLink } from 'lucide-react'
 import type { Experience } from '@/types/portfolio'
 
 interface Props {
@@ -54,6 +55,18 @@ export default function ExperienceSection({ experience }: Props) {
                       </li>
                     ))}
                   </ul>
+
+                  {exp.certificateLink && (
+                    <a
+                      href={exp.certificateLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 rounded-full border border-gray-700 px-4 py-2 text-sm text-white transition hover:border-gray-500 hover:text-purple-400"
+                    >
+                      View Certificate
+                      <ExternalLink size={16} />
+                    </a>
+                  )}
                 </div>
               </div>
 
