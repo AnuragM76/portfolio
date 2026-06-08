@@ -8,7 +8,7 @@
     "location": "Pune, Maharashtra, India",
     "yearsOfExperience": 1,
     "bio": "Computer Engineering student at Vishwakarma University with hands-on experience in Data Engineering, AI/ML, and Full-Stack Development. Published researcher in Artificial Intelligence and Machine Learning, with internship experience building large-scale ETL pipelines, cloud-native data solutions, and AI-powered applications. Passionate about solving real-world problems using modern software engineering practices and emerging technologies.",
-    "avatar": "/home/andy/Desktop/portfolio/public/Anurag Avatar.png",
+    "avatar": "/anurag-avatar.png",
     "social": {
       "github": "https://github.com/AnuragM76",
       "instagram": "",
@@ -18,7 +18,6 @@
       "website": "anuragmahajan.in"
     }
   },
-
   "skills": {
     "categories": [
       {
@@ -88,12 +87,11 @@
       }
     ]
   },
-
   "experience": [
     {
       "company": "Hackveda Solutions Pvt. Ltd.",
       "role": "Senior Data Engineer Intern",
-      "period": "Mar 2026 – May 2026",
+      "period": "Mar 2026 \u2013 May 2026",
       "location": "Remote, India",
       "summary": "Designed and deployed scalable ETL pipelines processing over 100,000 records daily while building cloud-native data solutions.",
       "highlights": [
@@ -106,7 +104,7 @@
     {
       "company": "Infeanet Digital Solution & Web Media",
       "role": "Data Science Intern",
-      "period": "Jun 2023 – Jul 2023",
+      "period": "Jun 2023 \u2013 Jul 2023",
       "location": "Remote",
       "summary": "Developed machine learning solutions and optimized predictive models using advanced feature engineering techniques.",
       "highlights": [
@@ -117,7 +115,6 @@
       ]
     }
   ],
-
   "projects": [
     {
       "id": 1,
@@ -171,19 +168,17 @@
       "highlight": false
     }
   ],
-
   "education": [
     {
       "institution": "Vishwakarma University",
       "degree": "B.Tech Computer Science & Engineering",
-      "period": "2024 – 2027"
+      "period": "2024 \u2013 2027"
     },
     {
       "institution": "AISSMS Polytechnic, Pune",
       "degree": "Diploma in Computer Engineering",
-      "period": "2021 – 2024"
+      "period": "2021 \u2013 2024"
     }
   ],
-
   "testimonials": []
 }
