@@ -151,22 +151,6 @@
       "link": "",
       "image": "",
       "highlight": true
-    },
-    {
-      "id": 3,
-      "title": "FlatMate Finder",
-      "subtitle": "Roommate Matching Application",
-      "description": "Mobile-first application helping users find compatible roommates and rental accommodations.",
-      "stack": [
-        "React Native",
-        "Node.js",
-        "MongoDB"
-      ],
-      "role": "Full Stack Developer",
-      "year": "2026",
-      "link": "",
-      "image": "",
-      "highlight": false
     }
   ],
   "education": [
@@ -185,7 +169,7 @@
     "title": "Professional Resume",
     "description": "Explore my experience in Software Engineering, Data Engineering, AI/ML Research, Cloud Platforms and Full Stack Development.",
     "viewLink": "/resume/Anurag-Mahajan-Resume.pdf",
-    "downloadLink": "/resume/Anurag-Mahajan-Resume.pdf"
+    "downloadLink": "/resume/AnuragMahajan.pdf"
   },
 
   "certifications": [
