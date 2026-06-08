@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion'
 import { Eye, Download } from 'lucide-react'
+import { usePortfolio } from '@/hooks/usePortfolio'
 
 export default function ResumeSection() {
-  const baseUrl = import.meta.env.BASE_URL ?? '/'
+  const { resume } = usePortfolio()
 
   return (
     <section id="resume" className="px-6 py-24 scroll-mt-20">
@@ -32,16 +33,12 @@ export default function ResumeSection() {
             </h3>
 
             <p className="text-gray-400 leading-relaxed mb-8">
-              Explore my experience in Software Engineering,
-              Data Engineering, AI/ML Research, Cloud Platforms,
-              and Full Stack Development.
+              {resume.description}
             </p>
 
             <div className="flex flex-wrap gap-4">
               <a
-                href={`${baseUrl}resume/Anurag-Mahajan-Resume.pdf`}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={resume.viewLink}
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-black rounded-xl font-medium hover:opacity-90 transition"
               >
                 <Eye size={18} />
@@ -49,7 +46,7 @@ export default function ResumeSection() {
               </a>
 
               <a
-                href={`${baseUrl}resume/Anurag-Mahajan-Resume.pdf`}
+                href={resume.downloadLink}
                 download
                 className="inline-flex items-center gap-2 px-6 py-3 border border-gray-700 rounded-xl text-white hover:border-gray-500 transition"
               >

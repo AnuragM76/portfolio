@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Server, Brain, Layout, Cloud, Database } from 'lucide-react'
+import { Brain, Layout, Cloud, Database } from 'lucide-react'
 
 const services = [
 {
