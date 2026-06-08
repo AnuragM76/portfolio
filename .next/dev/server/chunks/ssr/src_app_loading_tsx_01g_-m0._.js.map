@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/andy/Desktop/portfolio/portfolio/src/app/loading.tsx"],"sourcesContent":["export default function Loading() {\n  return (\n    <div className=\"flex flex-1 items-center justify-center\">\n      <div className=\"h-6 w-6 animate-spin rounded-full border-2 border-zinc-300 border-t-zinc-900\" />\n    </div>\n  );\n}\n"],"names":["Loading","className"],"mappings":";;;;;;AAAe,SAASA;IACtB,qBACE,8OAAC;QAAIC,WAAU;kBACb,cAAA,8OAAC;YAAIA,WAAU;;;;;;;;;;;AAGrB"}}]
+}

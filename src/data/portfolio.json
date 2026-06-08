@@ -1,0 +1,189 @@
+{
+  "profile": {
+    "name": "Anurag Mahajan",
+    "shortName": "Anurag",
+    "tagline": "Building AI-powered applications, scalable data systems, and modern web experiences.",
+    "role": "Computer Engineering Student & Software Engineer",
+    "specialization": "Full-Stack Development, AI/ML & Data Engineering",
+    "location": "Pune, Maharashtra, India",
+    "yearsOfExperience": 1,
+    "bio": "Computer Engineering student at Vishwakarma University with hands-on experience in Data Engineering, AI/ML, and Full-Stack Development. Published researcher in Artificial Intelligence and Machine Learning, with internship experience building large-scale ETL pipelines, cloud-native data solutions, and AI-powered applications. Passionate about solving real-world problems using modern software engineering practices and emerging technologies.",
+    "avatar": "/home/andy/Desktop/portfolio/public/Anurag Avatar.png",
+    "social": {
+      "github": "https://github.com/AnuragM76",
+      "instagram": "",
+      "linkedin": "https://linkedin.com/in/anurag-mahajan-1a8667204",
+      "email": "anuragmaha2004@gmail.com",
+      "phone": "+91-7377606555",
+      "website": "anuragmahajan.in"
+    }
+  },
+
+  "skills": {
+    "categories": [
+      {
+        "name": "Programming Languages",
+        "items": [
+          "Python",
+          "Java",
+          "JavaScript",
+          "TypeScript",
+          "C",
+          "C++",
+          "SQL"
+        ]
+      },
+      {
+        "name": "Frontend Development",
+        "items": [
+          "React.js",
+          "Redux Toolkit",
+          "Vite",
+          "Tailwind CSS",
+          "Material UI",
+          "Framer Motion"
+        ]
+      },
+      {
+        "name": "Backend Development",
+        "items": [
+          "Node.js",
+          "Express.js",
+          "REST APIs",
+          "FastAPI"
+        ]
+      },
+      {
+        "name": "Databases & Data Engineering",
+        "items": [
+          "PostgreSQL",
+          "MongoDB",
+          "MySQL",
+          "Supabase",
+          "Apache Spark",
+          "ETL Pipelines"
+        ]
+      },
+      {
+        "name": "Artificial Intelligence & Machine Learning",
+        "items": [
+          "TensorFlow",
+          "Scikit-learn",
+          "LangChain",
+          "Google Gemini API",
+          "LLM Fine-Tuning",
+          "Pandas",
+          "NumPy"
+        ]
+      },
+      {
+        "name": "Cloud & DevOps",
+        "items": [
+          "AWS",
+          "Azure",
+          "Docker",
+          "Linux",
+          "Git"
+        ]
+      }
+    ]
+  },
+
+  "experience": [
+    {
+      "company": "Hackveda Solutions Pvt. Ltd.",
+      "role": "Senior Data Engineer Intern",
+      "period": "Mar 2026 – May 2026",
+      "location": "Remote, India",
+      "summary": "Designed and deployed scalable ETL pipelines processing over 100,000 records daily while building cloud-native data solutions.",
+      "highlights": [
+        "Designed ETL pipelines processing 100K+ records daily",
+        "Improved throughput by 40% and reduced processing time by 35%",
+        "Built real-time data processing systems using Apache Spark",
+        "Worked with AWS, Azure, Docker, Python and SQL"
+      ]
+    },
+    {
+      "company": "Infeanet Digital Solution & Web Media",
+      "role": "Data Science Intern",
+      "period": "Jun 2023 – Jul 2023",
+      "location": "Remote",
+      "summary": "Developed machine learning solutions and optimized predictive models using advanced feature engineering techniques.",
+      "highlights": [
+        "Built ML models achieving 85%+ accuracy",
+        "Performed correlation analysis and feature transformation",
+        "Improved model performance by 25%",
+        "Worked with Python, Pandas, NumPy and Scikit-learn"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": 1,
+      "title": "AI-Powered Learning Management System",
+      "subtitle": "Personalized Education Platform",
+      "description": "An intelligent learning platform with AI-generated quizzes, personalized recommendations and real-time analytics.",
+      "stack": [
+        "React",
+        "Vite",
+        "Supabase",
+        "Google Gemini API",
+        "PostgreSQL"
+      ],
+      "role": "Full Stack Developer",
+      "year": "2026",
+      "link": "",
+      "image": "",
+      "highlight": true
+    },
+    {
+      "id": 2,
+      "title": "Travel Advisor Platform",
+      "subtitle": "AI-powered Travel Planning System",
+      "description": "A travel recommendation platform integrating transportation, stays, route optimization and cost estimation.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "MongoDB",
+        "Google Maps API"
+      ],
+      "role": "Backend Developer",
+      "year": "2026",
+      "link": "",
+      "image": "",
+      "highlight": true
+    },
+    {
+      "id": 3,
+      "title": "FlatMate Finder",
+      "subtitle": "Roommate Matching Application",
+      "description": "Mobile-first application helping users find compatible roommates and rental accommodations.",
+      "stack": [
+        "React Native",
+        "Node.js",
+        "MongoDB"
+      ],
+      "role": "Full Stack Developer",
+      "year": "2026",
+      "link": "",
+      "image": "",
+      "highlight": false
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "Vishwakarma University",
+      "degree": "B.Tech Computer Science & Engineering",
+      "period": "2024 – 2027"
+    },
+    {
+      "institution": "AISSMS Polytechnic, Pune",
+      "degree": "Diploma in Computer Engineering",
+      "period": "2021 – 2024"
+    }
+  ],
+
+  "testimonials": []
+}
